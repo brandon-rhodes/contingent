@@ -26,7 +26,7 @@ which itself depends upon the corresponding source code::
             cc -o prog main.o
 
     main.o: main.c
-            cc -C -o main.o main.c
+            cc -c -o main.o main.c
 
 Should ``make`` discover, upon its next invocation,
 that the ``main.c`` source code file
