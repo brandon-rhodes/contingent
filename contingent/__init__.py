@@ -21,3 +21,5 @@ be rebuilt.  Contingent will:
   history.
 
 """
+import sys
+assert sys.version_info >= (3,)
